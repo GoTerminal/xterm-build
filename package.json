@@ -1,20 +1,21 @@
 {
   "name": "xterm-build",
   "version": "2.0.1",
-  "description": "Xter.js build",
+  "description": "Xterm.js build",
   "main": "xterm.js",
   "dependencies": {
     "xterm": "^2.0.1"
   },
   "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start" : "./build.sh"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GoTerminal/xterm-build.git"
   },
-  "author": "",
+  "author": "Philippe Assis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GoTerminal/xterm-build/issues"
