@@ -1,0 +1,23 @@
+{
+  "name": "xterm-build",
+  "version": "2.0.1",
+  "description": "Xter.js build",
+  "main": "xterm.js",
+  "dependencies": {
+    "xterm": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : "./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoTerminal/xterm-build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoTerminal/xterm-build/issues"
+  },
+  "homepage": "https://github.com/GoTerminal/xterm-build#readme"
+}
