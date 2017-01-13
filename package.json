@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "./build.sh"
+    "install" : "git clone https://github.com/sourcelair/xterm.js/ xterm && build.sh"
   },
   "repository": {
     "type": "git",
