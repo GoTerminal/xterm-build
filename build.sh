@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-cd xterm && rm -r .git && npm install && bash -c './bin/build' && cp -R build ..
+git clone https://github.com/sourcelair/xterm.js/ xterm && cd xterm && npm install && bash -c './bin/build' && cp -R build ..
